@@ -1,0 +1,27 @@
+{
+  "name": "esb",
+  "homepage": "",
+  "authors": [
+    "Jose Maria Fabiano <josemariafabiano@gmail.com>"
+  ],
+  "description": "dependencies for client-side app",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "#3.2",
+    "jquery": "^3.1.1",
+    "angular": "1.6.1",    
+    "angular-bootstrap": "^2.4.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "bootstrap-validator": "^0.11.9",
+    "bootstrap3-typeahead": "^4.0.2",
+    "font-awesome": "^4.7.0",
+  }
+}
