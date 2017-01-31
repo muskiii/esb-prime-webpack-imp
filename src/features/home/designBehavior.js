@@ -1,6 +1,7 @@
 import ScrollReveal from 'scrollReveal';
 import 'magnific-popup/dist/jquery.magnific-popup.js';
-export default function creative() {
+import 'magnific-popup/dist/magnific-popup.css';
+export default function designBehavior() {
 
 	$('a.page-scroll').bind('click', function(event) {
 		var $anchor = $(this);
@@ -13,11 +14,12 @@ export default function creative() {
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
     	target: '.navbar-fixed-top',
-    	offset: 51
+    	offset: 15
     });
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function() {
+       console.log('entra');
     	$('.navbar-toggle:visible').click();
     });
 
