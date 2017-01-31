@@ -1,4 +1,4 @@
-import ScrollReveal from 'scrollReveal';
+import ScrollReveal from 'scrollreveal';
 import 'magnific-popup/dist/jquery.magnific-popup.js';
 import 'magnific-popup/dist/magnific-popup.css';
 export default function designBehavior() {
