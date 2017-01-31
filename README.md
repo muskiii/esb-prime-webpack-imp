@@ -7,4 +7,4 @@ instruciones para instalar y correr la app
   2. instalar git https://git-scm.com/ (unica vez)
   3. corremos el comando -> npm install (sobre el directorio root de la app )
   4. levantar el servidor -> npm run server (sobre el directorio root de la app )
--- La aplicacion estara disponible en http://localhost:8080 --
+  -- La aplicacion estara disponible en http://localhost:8080 --
